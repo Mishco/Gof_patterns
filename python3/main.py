@@ -1,5 +1,8 @@
+from singleton.Singleton import TestSingleton
+
+
 def main():
-    print("Hello World")
+    TestSingleton()
 
 
 if __name__ == '__main__':
