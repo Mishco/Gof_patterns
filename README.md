@@ -2,6 +2,20 @@
 
 List of Gang of Four Patterns
 
+## Already done patterns
+
+#### Creational 
+
+* Abstract Factory
+* Builder
+* Factory Method
+* Singleton
+
+#### Structural 
+
+#### Behavioral
+
+
 ## Technology stack
 
 #### Java part
@@ -11,7 +25,7 @@ List of Gang of Four Patterns
  
 #### Python part
 
-* Python3
+* Python 3
 
 ## Licence
 
