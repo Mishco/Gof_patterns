@@ -6,10 +6,11 @@ List of Gang of Four Patterns
 
 #### Creational 
 
-* Abstract Factory
-* Builder
-* Factory Method
-* Singleton
+* [Abstract Factory](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/abstractfactory)
+* [Builder](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/builder)
+* [Factory Method](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/factorymethod)
+* Prototype
+* [Singleton](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/singleton)
 
 #### Structural 
 
