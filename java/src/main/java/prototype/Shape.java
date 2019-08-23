@@ -2,8 +2,9 @@ package prototype;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
-
+@Slf4j
 @Getter
 public abstract class Shape implements Cloneable {
 
@@ -13,12 +14,13 @@ public abstract class Shape implements Cloneable {
 
     abstract void draw();
 
+    @Override
     public Object clone() {
         Object clone = null;
         try {
             clone = super.clone();
         } catch (CloneNotSupportedException ex) {
-            System.err.println(ex.getMessage());
+            log.warn(ex.getMessage());
         }
         return clone;
     }

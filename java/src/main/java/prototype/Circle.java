@@ -1,5 +1,8 @@
 package prototype;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 class Circle extends Shape {
 
     Circle() {
@@ -8,6 +11,6 @@ class Circle extends Shape {
 
     @Override
     void draw() {
-        System.out.println("Inside Circle::draw() method.");
+        log.info("Inside Circle::draw() method.");
     }
 }

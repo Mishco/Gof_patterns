@@ -1,5 +1,8 @@
 package prototype;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 class Rectangle extends Shape {
     Rectangle() {
         super.type = "Rectangle";
@@ -7,6 +10,6 @@ class Rectangle extends Shape {
 
     @Override
     void draw() {
-        System.out.println("Inside Rectangle :: draw method");
+       log.info("Inside Rectangle :: draw method");
     }
 }

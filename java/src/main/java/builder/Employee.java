@@ -1,6 +1,6 @@
 package builder;
 
-public class Employee {
+class Employee {
     private final String name;
     private final int age;
     private final String department;
@@ -11,40 +11,40 @@ public class Employee {
         this.department = department;
     }
 
-    public static class Builder {
+    static class Builder {
         private String name;
         private int age;
         private String department;
 
-        public Employee build() {
+        Employee build() {
             return new Employee(name, age, department);
         }
 
-        public Builder setName(String name) {
+        Builder setName(String name) {
             this.name = name;
             return this;
         }
 
-        public Builder setAge(int age) {
+        Builder setAge(int age) {
             this.age = age;
             return this;
         }
 
-        public Builder setDepartment(String department) {
+        Builder setDepartment(String department) {
             this.department = department;
             return this;
         }
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public int getAge() {
+    int getAge() {
         return age;
     }
 
-    public String getDepartment() {
+    String getDepartment() {
         return department;
     }
 }
