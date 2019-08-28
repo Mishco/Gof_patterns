@@ -9,10 +9,13 @@ List of Gang of Four Patterns
 * [Abstract Factory](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/abstractfactory)
 * [Builder](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/builder)
 * [Factory Method](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/factorymethod)
-* Prototype
+* [Prototype](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/prototype)
 * [Singleton](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/singleton)
 
 #### Structural 
+
+* [Adapter](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/adapter)
+
 
 #### Behavioral
 
