@@ -22,6 +22,12 @@ List of Gang of Four Patterns
 
 ## Technology stack
 
+
+#### Kotlin part
+
+* Gradle
+* Kotlin jvmTarget = "1.8"
+
 #### Java part
 
 * Java 11
