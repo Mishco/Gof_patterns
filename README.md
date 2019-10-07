@@ -6,15 +6,16 @@ List of Gang of Four Patterns
 
 #### Creational 
 
-* [Abstract Factory](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/abstractfactory)
-* [Builder](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/builder)
-* [Factory Method](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/factorymethod)
-* [Prototype](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/prototype)
-* [Singleton](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/singleton)
+* [Abstract Factory](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.abstractfactory)
+* [Builder](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.builder)
+* [Factory Method](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.factorymethod)
+* [Prototype](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.prototype)
+* [Singleton](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton)
 
 #### Structural 
 
-* [Adapter](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/adapter)
+* [Adapter](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.adapter)
+* [Bridge](https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.bridge)
 
 
 #### Behavioral
@@ -22,6 +23,7 @@ List of Gang of Four Patterns
 
 ## Technology stack
 
+### kotlin_service
 
 #### Kotlin part
 
@@ -32,7 +34,9 @@ List of Gang of Four Patterns
 
 * Java 11
 * Maven
- 
+
+### python_service
+
 #### Python part
 
 * Python 3
