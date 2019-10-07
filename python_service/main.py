@@ -1,4 +1,4 @@
-from singleton.Singleton import TestSingleton
+from java_patterns.singleton.Singleton import TestSingleton
 
 
 def main():
