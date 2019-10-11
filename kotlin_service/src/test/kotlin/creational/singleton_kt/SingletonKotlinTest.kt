@@ -8,7 +8,6 @@ internal class SingletonKotlinTest {
 
     @Test
     fun main() {
-        print(SingletonKotlin)
+        assertNotNull(SingletonKotlin)
     }
-
 }

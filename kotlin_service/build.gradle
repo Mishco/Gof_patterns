@@ -15,9 +15,6 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.8'
     implementation 'org.slf4j:slf4j-api:1.7.26'
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
-
-
-    //testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.4.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
     testCompile 'org.junit.platform:junit-platform-commons:1.4.1'
@@ -27,12 +24,7 @@ dependencies {
             'org.junit.jupiter:junit-jupiter-api:5.4.2'
     )
     testRuntime('org.junit.jupiter:junit-jupiter-engine:5.4.2')
-
-//    testImplementation "org.junit.platform:junit-platform-launcher:1.4.0"
-//       testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.2'
     testImplementation "org.junit.vintage:junit-vintage-engine:5.3.2"
-//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.2'
-//    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.3.2'
 }
 test {
     // Enable JUnit 5 (Gradle 4.6+).
