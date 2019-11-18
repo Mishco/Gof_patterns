@@ -1,0 +1,59 @@
+= Implementation of Gof patterns
+:sectnums:
+:toc2:
+:env_standard:
+
+== Introduction
+
+List of Gang of Four Patterns. Created in python, kotlin and java. Only for study purpose.
+
+== Already done patterns
+
+=== Creational 
+
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.abstractfactory[Abstract Factory]
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.builder[Builder]
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.factorymethod[Factory Method]
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.prototype[Prototype]
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton[Singleton]
+
+=== Structural 
+
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.adapter[Adapter]
+* link:https://github.com/Mishco/Gof_patterns/tree/master/java/src/main/java/java_patterns.singleton.bridge[Bridge]
+
+=== Behavioral
+
+
+[NOTE]
+====
+Under construction
+====
+
+
+== Technology stack
+
+=== kotlin_service
+
+==== Kotlin part
+
+* Gradle
+* Kotlin jvmTarget = "1.8"
+
+==== Java part
+
+* Java 11
+* Maven
+
+=== python_service
+
+==== Python part
+
+* Python 3
+
+== Licence
+
+MIT License
+
+Copyright (c) 2019 Michal Slovík
+
