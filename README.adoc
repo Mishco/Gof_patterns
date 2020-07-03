@@ -3,6 +3,8 @@
 :toc2:
 :env_standard:
 
+== Moved to https://gitlab.com/Mishco/Gof_patterns
+
 == Introduction
 
 List of Gang of Four Patterns. Created in python, kotlin and java. Only for study purpose.
